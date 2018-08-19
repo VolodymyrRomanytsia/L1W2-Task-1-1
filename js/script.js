@@ -1,9 +1,9 @@
-let button = document.querySelector('.button');
-let cont = document.querySelector('.container');
+const button = document.querySelector('.button');
+const cont = document.querySelector('.container');
 button.onclick = function(){
 	cont.classList.toggle('revers');
 	uah.value = 'null';
-	usd.value = 'null'
+	usd.value = 'null';
 }
 
 function exchange() {
